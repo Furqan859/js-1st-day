@@ -1,32 +1,34 @@
-*{
+body{
     margin: 0;
     padding: 0
 }
+
+
 #center{
     display: flex;
     justify-content: center;
 
-   
+    
    
 
 }
 
-.heading{
+#countdown{
     color:rgb(0, 4, 255);
     align-self: center;
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%);
+    transform: translate(0, -100%);
     font-size: 200px;
-    display: inline-block;
+  
     text-transform: uppercase;
     
     
 }
 
-.image{
-    background-image: url(./pictures/strawberries.jpg);
-    position: absolute;
-    height: 100%;
-    width: 100%;
+#bckground-image{
+object-fit: cover;
+   
+   
+   
 }
