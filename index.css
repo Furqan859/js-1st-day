@@ -1,34 +1,41 @@
-body{
+body {
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
 }
 
+#background-image {
 
-#center{
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+}
+
+#center {
     display: flex;
     justify-content: center;
 
-    
-   
+
+
 
 }
 
-#countdown{
-    color:rgb(0, 4, 255);
-    align-self: center;
-    position: absolute;
+#countdown {
+    
+    height:auto;
+    width: auto;
+    font-size:500px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:absolute;
     top: 50%;
-    transform: translate(0, -100%);
-    font-size: 200px;
-  
-    text-transform: uppercase;
-    
-    
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
 }
 
-#bckground-image{
-object-fit: cover;
-   
-   
-   
-}
